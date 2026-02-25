@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>parking_msgs</name>
+  <version>0.0.0</version>
+  <description>Messages for the parking system</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- 빌드시 필요한 도구 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 메시지 생성에 필요한 의존성 -->
+  <build_depend>rosidl_default_generators</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <!-- 실행 시 필요한 의존성 -->
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- ros2 interface list 에 잡히게 하는 그룹 설정 -->
+  <member_of_group>rosidl_interface_packages</member_of_group>
+</package>
+
