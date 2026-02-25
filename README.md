@@ -126,7 +126,7 @@ task_allocator.py  ─ raw_missions → robot1/robot5 분배
 | 이름 | 역할 |
 |------|------|
 | **전형준** | AMR 자율 주행 제어 (`mission_executor`), 이중주차 협동 제어 FSM (`mission_manager`), 입차 실행 일부 기여 |
-| 팀원 2 | 입차 관제 서버 (YOLOv8, 주차 배정) |
-| 팀원 3 | 출차 관제 서버, DB 설계 (Supabase) |
-| 팀원 4 | 웹 대시보드, 결제 시스템 |
+| **이강엽** | 입차 관제 서버 (YOLOv8, 주차 배정) |
+| **황승현** | 출차 관제 서버, DB 설계 (Supabase) |
+| **백수안** | 웹 대시보드, 결제 시스템 |
 | 팀원 5~8 | F-2조 협업 |
